@@ -1,0 +1,23 @@
+nav{
+    /* border: 1px solid red; */
+    width: auto;
+    height: 56px;
+    background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: flex-start;
+}
+nav img{
+    width: 30px;
+}
+nav>div:nth-child(1){
+    width: 40px;
+    height: auto;
+
+}
+nav>div:nth-child(2){
+    width: 40px;
+    height: auto;
+
+}

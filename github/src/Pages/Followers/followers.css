@@ -1,0 +1,31 @@
+.followers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.followers>div{
+   
+   
+    width: 500px;
+    height: auto;
+ display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+}
+.followers img{
+    width: 60px;
+    border: 90px;
+    vertical-align: middle;
+}
+.imgname{
+    margin: 5px;
+    /* border: 1px solid red; */
+   
+   display: flex;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
